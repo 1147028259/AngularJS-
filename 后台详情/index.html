@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>后台详情</title>
+    <link rel="stylesheet"  href="dist/css/bootstrap.css"/>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+    	*{
+    	  margin: 0; padding: 0;
+    	  list-style: none;
+    	}
+    	.box{
+    	  width: 100%;
+    	  height: 100%;	
+    	}
+    	.top{
+    	  background: url(img/images/首页_01.jpg) no-repeat;
+    	  background-image: auto 100%;
+    	  padding-bottom: 3rem;
+    	  color: #fff;	
+    	}
+    	.t_top{
+    	  padding-top: 3rem;
+    	  box-sizing: border-box;
+    	  font-size: 3.6rem;	
+    	}
+    	 .n_cont{
+      	background: #fafafa;
+      }
+     .n_cont img{
+        width: auto;
+        height: 3rem;
+        vertical-align:middle;
+     }	
+     .n_cont span{
+     	width: 0;
+     	height:0;
+     	border: 8px solid transparent;
+     	border-top:8px solid ;
+     	margin-left: 3rem;
+     	display: inline-block;
+     	line-height: 3rem;
+     	}	
+     dl dt img{
+     	width: auto;
+     	height: 2.5rem;
+     }
+     dl{
+     	height:2rem;
+     	padding: 0 0.5rem;
+     }
+     .bg{
+      background: #4c9cbd;
+      color: #fff;
+     }
+     .gen{
+     	float:right;
+     }
+     @media  screen and (min-width:768px){	
+    	#myside{
+    		width: 250px;
+    		position: absolute;
+    		top: 20rem;
+    		padding-top:10px;
+    	}
+    	.panel-main{
+    		margin-left: 260px;
+    	}
+    	}
+    </style>
+</head>
+<body>
+	<div class="box">
+       <div class="top">
+       	   <p class="text-center t_top">商会行会后台管理系统</p>     
+       </div>	
+        <div class="container">
+	    <div class="n_cont text-right">
+	    	<a href="#">
+	    		<img src="img/images/首页_03.jpg"/>王某某
+	    		<span class="caret"></span>
+	    	</a>
+	    </div>	  
+	    	<nav class="navbar navbar-default"  role="navigation" >
+	    		<div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+			         data-target="#menu">
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			      </button>
+			   </div>
+	           <div class="navbar-header"> 
+	           	  <ul class=" nav navbar-nav navbar-left text-center" class="dropdown-menu" role="menu" id="menu">
+	           	   <li  class="bg"><a href="#" >
+	           	   	 <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_14.jpg"/></dt>
+	           	   	  	  <dd>首页</dd>
+	           	   	  </dl>
+	           	   </a></li>
+	           	   <li><a href="#">
+	           	   	 <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_20.jpg"/></dt>
+	           	   	  	  <dd>入会审批</dd>
+	           	   	  </dl>
+	           	   </a></li>
+	           	   	<li><a href="#">
+	           	   	 <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_03.jpg"/></dt>
+	           	   	  	  <dd>预警监督</dd>
+	           	   	  </dl>
+	           	   	</a></li> 
+	           	   	 <li><a href="#">
+	           	   	 <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_05.jpg"/></dt>
+	           	   	  	  <dd>一代一路</dd>
+	           	   	  </dl>
+	           	   	 </a></li>
+	           	   	 <li><a href="#">
+	           	   	   <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_07.jpg"/></dt>
+	           	   	  	  <dd>商会建设</dd>
+	           	   	  </dl>
+	           	   	 </a></li>
+	           	   	  <li>
+	           	   	  	<a href="#">
+	           	   	  	 <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_09.jpg"/></dt>
+	           	   	  	  <dd>信用报告</dd>
+	           	   	    </dl>	
+	           	   	  	</a>
+	           	   	  </li>
+	           	   	   <li><a href="#">
+	           	   	   	<dl>
+	           	   	  	  <dt><img src="img/images/images/首页_23.jpg"/></dt>
+	           	   	  	  <dd>舆情监督</dd>
+	           	   	   </dl>
+	           	   	   </a></li> 
+	           	   	   <li><a href="#">
+	           	   	   <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_17.jpg"/></dt>
+	           	   	  	  <dd>联合惩戒</dd>
+	           	   	   </dl>
+	           	   	   </a></li>
+	           	   	   <li><a href="#">
+	           	   	   <dl>
+	           	   	  	  <dt><img src="img/images/images/首页_11.jpg"/></dt>
+	           	   	  	  <dd>对外展示</dd>
+	           	   	  </dl>
+	           	   	   </a></li>
+	           	   	   <li><a href="#">
+	           	   	   	<dl>
+	           	   	  	  <dt><img src="img/images/images/首页_011_03.jpg"/></dt>
+	           	   	  	  <dd>用户中心</dd>
+	           	   	    </dl>
+	           	   	   </a></li> 
+	           </div>
+	    	</nav>
+	    	<div class="navbar-default" id="myside">
+	    		<ul class="nav">
+	    			<li>
+	    				<a href="#two  pull-center" data-toggle="collapse"><b>联合惩戒</b><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+	    			   <ul id="two" class="nav collapse">
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li> 
+					</ul>
+	    			</li>
+	    			<li>
+	    		      <a href="#two" data-toggle="collapse"><b>内部褒奖</b><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+	    			  <ul id="two" class="nav collapse">
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li> 
+					</ul>
+	    			</li>
+	    			<li>
+	    			  <a href="#two" data-toggle="collapse"><b>行业联动</b><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+	    			   <ul id="two" class="nav collapse">
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>系统信息</a></li> 
+					</ul>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!--<div class="panel-main">	
+	    	 <div class="col-sm-8">
+				<div class="panel panel-default">
+					<div class="panel-heading">入会申请<span class="gen">更多</span></div> 
+						<table class="table table-striped ">
+							<tr>
+								<th>企业名称</th>
+								<th>所属省份</th>
+								<th>申请类型</th>
+								<th>申请时间</th>
+								<th>状态</th>
+							</tr>
+							<tr>
+								<td>八维学院</td>
+								<td>北京市</td>
+								<td>建筑工程</td>
+								<td>2017-3-22</td>
+								<td>通过</td>
+							</tr>
+							<tr>
+								<td>八维学院</td>
+								<td>北京市</td>
+								<td>建筑工程</td>
+								<td>2017-3-22</td>
+								<td>通过</td>
+							</tr>
+							<tr>
+								<td>八维学院</td>
+								<td>北京市</td>
+								<td>建筑工程</td>
+								<td>2017-3-22</td>
+								<td>通过</td>
+							</tr>
+							<tr>
+								<td>八维学院</td>
+								<td>北京市</td>
+								<td>建筑工程</td>
+								<td>2017-3-22</td>
+								<td>通过</td>
+							</tr>
+						</table>
+					 </div>	
+				</div>
+			</div>-->
+	    </div>	
+	</div>
+</body>
+</html>
