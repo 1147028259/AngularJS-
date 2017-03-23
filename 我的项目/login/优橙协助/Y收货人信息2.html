@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/Yxinxi2.css"/>
+	</head>
+	<body>
+		<div class="help2">
+			<div class="hp_big">
+				
+			</div>
+			<div class="hp_big1">
+				<div class="hp_sun">
+					<p>确定返回？</p>
+					<p>您填写的信息尚未保存，确定返回码？</p>
+				</div>
+				<div class="hp_sun2">
+					<h2>取消</h2>
+					<h3>确认</h3>
+				</div>
+			</div>
+			<header>
+				<h2>收货人信息</h2>
+				<h3><img src="img/image3/bang_1_03.jpg"/></h3>
+			</header>
+			<section>
+				<div class="hs_top">
+					<h2>收货人：</h2>
+					<h3><input type="text" placeholder="沙发咖啡"/></h3>
+				</div>
+				<div class="hs_top">
+					<h2>手机号：</h2>
+					<h3><input type="text" placeholder="150-1152-3522"/></h3>
+				</div>
+				<div class="hs_top">
+					<h2>所在地区：</h2>
+					<h3><input type="text" placeholder="沙发咖啡"/></h3>
+					<h4><img src="img/image3/bao_3_03.jpg"/></h4>
+				</div>
+				<div class="hs_top">
+					<h2>具体地址：</h2>
+					<h3><input type="text" placeholder="XX路XX楼"/></h3>
+				</div>
+				<div class="s_bot">
+					<button>保存修改</button>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script>
+		$(function(){
+			$(".help2 header h3").click(function(){
+				$(".help2 .hp_big,.hp_big1").show();
+			})
+			$(".help2 .hp_big1 .hp_sun2 h2").click(function(){
+				$(".help2 .hp_big,.hp_big1").hide();
+			})
+		})
+	</script>
+</html>

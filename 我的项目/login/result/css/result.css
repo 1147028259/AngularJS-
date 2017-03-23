@@ -1,0 +1,156 @@
+@import url("reset.css");
+.wrappers {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.wrappers .opct {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  position: fixed;
+  opacity: 0.5;
+  display: none;
+}
+.wrappers header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  color: #262626;
+}
+.wrappers header b {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: none;
+  border: 2px solid #ccc;
+  border-top: none;
+  border-right: none;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  transform: rotateZ(45deg);
+}
+.wrappers section {
+  -webkit-box-flex: 1;
+}
+.wrappers section .bigbox {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.wrappers section .bigbox .new_pwd {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.wrappers section .bigbox .new_pwd input {
+  border: none;
+  outline: none;
+}
+.wrappers section .bigbox .r_pwd {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.wrappers section .bigbox .r_pwd input {
+  border: none;
+  outline: none;
+}
+.wrappers section .bigbox .phone {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+}
+.wrappers section .bigbox .phone input {
+  border: none;
+  outline: none;
+}
+.wrappers section .yanzhen {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+}
+.wrappers section .yanzhen input {
+  border: none;
+  outline: none;
+}
+.wrappers section .yanzhen span {
+  width: 8rem;
+  height: 4rem;
+  background: none;
+  float: right;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+}
+.wrappers section .btns {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.wrappers section .btns span {
+  width: 100%;
+  height: 4rem;
+  background: #ff7d1b;
+  line-height: 4rem;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+}
+.BoxIndex {
+  width: 22rem;
+  height: 12rem;
+  background: #ffffff;
+  text-align: center;
+  display: none;
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -11rem;
+}
+.BoxIndex span {
+  width: 5rem;
+  height: 4rem;
+  background: none;
+  display: inline-block;
+}
+.BoxIndex span img {
+  width: 5rem;
+  height: 4rem;
+  background: none;
+  margin-top: 15px;
+}
+.BoxIndex p {
+  width: 5rem;
+  height: 4rem;
+  background: none;
+  margin: 5px auto;
+}

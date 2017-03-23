@@ -1,0 +1,145 @@
+@import url(reset.css);
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.wrap header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.wrap header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.wrap header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.wrap header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.wrap section::-webkit-scrollbar {
+  width: 0;
+}
+.wrap section .wr_main {
+  width: 100%;
+  height: 4.1rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  border-top: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap section .wr_main h2 {
+  color: #656565;
+  line-height: 4rem;
+  padding-left: 1rem;
+}
+.wrap section .wr_main h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 4rem;
+  background: none;
+}
+.wrap section .wr_main h3 input {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.wrap section .wr_main1 {
+  width: 100%;
+  height: 4.2rem;
+  background: #ffffff;
+  padding-left: 1rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+.wrap section .wr_main1 .m_1 {
+  border-top: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap section .wr_main1 .m_1 h2 {
+  color: #656565;
+  line-height: 4rem;
+}
+.wrap section .wr_main1 .m_1 h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 4rem;
+  background: none;
+}
+.wrap section .wr_main1 .m_1 h3 input {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.wrap section .wr_bot {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+}
+.wrap section .wr_or {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+.wrap section .wr_or button {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}

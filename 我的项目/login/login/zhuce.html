@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>注册</title>
+    <link rel="stylesheet" href="../logobar/css/denglu.css" />
+     
+</head>
+<body ng-view>
+	 <div class="wrapper_box">
+  	<header>
+  		 <b ui-sref="two"></b>
+  		<h2>注册</h2>
+  	</header>
+  	<section>
+  		<div class="bigbox">
+  			<p class="new_pwd"><input type="text" placeholder="请输入新密码"/></p>
+  			<p class="r_pwd"><input type="text" placeholder="请再次输入新密码"/></p>
+  		    <p class="phone"><input type="text" placeholder="请输入手机号"/></p>
+  		</div>
+  		    <p class="yanzhen">
+  		    	<input type="text" placeholder="请输入验证码"/>
+  		        <span>获取验证</span>  
+  		    </p> 
+  		 <div class="btns">
+  		 	<span ui-sref="sbmlit">提交</span>
+  		 </div>
+  	</section>
+  </div> 
+</body>
+</html>

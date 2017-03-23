@@ -1,0 +1,116 @@
+@import url(reset.css);
+html,
+body,
+.shop4 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.shop4 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.shop4 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop4 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop4 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.shop4 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.shop4 header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop4 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop4 section::-webkit-scrollbar {
+  width: 0;
+}
+.shop4 section .sp_nav {
+  width: 100%;
+  height: 3.5rem;
+  background: none;
+  line-height: 3.5rem;
+  padding: 0 1rem;
+}
+.shop4 section .sp_main {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+}
+.shop4 section .sp_main h2 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+}
+.shop4 section .sp_main h2 input {
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+  outline: none;
+  border: none;
+}
+.shop4 section .sp_main h3 {
+  border-left: 1px solid #cccccc;
+  line-height: 3.8rem;
+  padding-left: 0.7rem;
+}
+.shop4 section .s_bot {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.shop4 section .s_bot button {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+}

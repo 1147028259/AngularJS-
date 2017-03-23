@@ -1,0 +1,97 @@
+@import url("reset.css");
+
+//封装宽 高 背景
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.p(@p){
+    position:@p;
+}
+.full(@val){
+    display: -webkit-box;
+    -webkit-box-orient:@val;
+}
+.guanlian{
+    .whb(100%,100%,#f2f2f2);
+    .full(vertical);
+    position: relative;
+    opacity: 0.6;
+    header{
+       .whb(100%,4rem,#f7f7f7);
+       border-bottom: 1px solid #ccc;
+       .full(horizontal);
+       position: relative;  
+       b{
+           .whb(1rem,1rem,none);
+           display: inline-block;
+           border:2px solid #ccc;
+           border-top:none ;
+           border-right:none;
+           transform: rotateZ(45deg);
+           position: absolute;
+           top: 16px;
+           left: 15px;
+       } 
+       h3{
+         -webkit-box-flex: 1; 
+         font-size:1.8rem; 
+         text-align: center;
+         line-height: 4rem;
+       }
+    }
+    section{
+        -webkit-box-flex: 1;
+       .main{
+           .whb(100%,7rem,#fff);
+           ul{
+             font-size: 12px; 
+             li{
+                 padding: 10px;
+                 box-sizing: border-box;
+             } 
+           }
+       } 
+      .button{
+        .whb(100%,auot,none);  
+        padding: 10px;
+        box-sizing: border-box;
+        span{
+            .whb(100%,4rem,#cccccc);
+            display: inline-block;
+            text-align: center;
+            line-height: 4rem;
+            color: #fff;
+            font-size: 1.8rem;
+            border-radius: 5px;
+        }  
+      } 
+    }
+}
+.box{
+   .whb(20rem,11.5rem,#fff);
+   position: absolute;
+   left: 12%;
+   top: 50%;
+      text-align: center; 
+   P{
+      line-height:8rem;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+   }
+   span{
+       display: inline-block;
+       
+       color: #1583fe;
+       line-height: 3.5rem;
+       font-size: 1.4rem;
+   }
+}

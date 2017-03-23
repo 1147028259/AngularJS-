@@ -1,0 +1,118 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.shop5{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.shop5{
+    .box(vertical);
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        .p_t1{
+            .full(100%,4rem,#fff);
+            padding-left: 1rem;
+            box-sizing: border-box;
+            border-top: 1px solid #CCCCCC;
+             margin-top: 0.5rem;
+        }
+        .p_top{
+            .full(100%,3.9rem,#fff);
+            .box(horizontal);
+            border-bottom: 1px solid #CCCCCC;
+            h2{
+                color: #676767;
+                line-height: 3.8rem;
+            }
+            h3{
+                -webkit-box-flex: 1;
+                .full(100%,3.8rem,none);
+                input{
+                    .full(100%,3.8rem,none);
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+        .p_main{
+            .full(100%,4rem,#fff);
+            .box(horizontal);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid #CCCCCC;
+            h2{
+                line-height: 3.9rem;
+            }
+            h3{
+                -webkit-box-flex: 1;
+                .full(100%,3.9rem,none);
+                input{
+                    .full(100%,3.9rem,none);
+                    outline: none;
+                    border: none;
+                }
+            }
+            h4{
+                line-height: 3.9rem;
+                padding-left: 0.7rem;
+                box-sizing: border-box;
+                border-left: 1px solid #CCCCCC;
+            }
+        }
+        .s_bot{
+            .full(100%,3rem,none);
+            margin-top: 2rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            button{
+                .full(100%,3rem,#ff7f1c);
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                color: white;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

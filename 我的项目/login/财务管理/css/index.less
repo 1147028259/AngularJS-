@@ -1,0 +1,116 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.wrap{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.wrap{
+    .box(vertical);
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        .wr_main{
+            .full(100%,4.1rem,#fff);
+            margin-top: 0.5rem;
+            border-top: 1px solid #bfbfbf;
+            .box(horizontal);
+            h2{
+                color: #656565;
+                line-height: 4rem;
+                padding-left: 1rem;
+            }
+            h3{
+                -webkit-box-flex: 1;
+                .full(100%,4rem,none);
+                input{
+                    .full(100%,4rem,none);
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .wr_main1{
+            .full(100%,4.2rem,#fff);
+            padding-left: 1rem;
+            border-bottom: 1px solid #bfbfbf;
+            .m_1{
+                 border-top: 1px solid #bfbfbf;
+                 .box(horizontal);
+            h2{
+                color: #656565;
+                line-height: 4rem;
+            }
+            h3{
+                -webkit-box-flex: 1;
+                .full(100%,4rem,none);
+                input{
+                    .full(100%,4rem,none);
+                    border: none;
+                    outline: none;
+                }
+            }
+            }
+        }
+        .wr_bot{
+            .full(100%,3rem,none);
+            padding-left: 1rem;
+            box-sizing: border-box;
+            line-height: 3rem;
+        }
+        .wr_or{
+            .full(100%,3rem,none);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            margin-top: 1rem;
+            button{
+                .full(100%,3rem,#ff7f1c);
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

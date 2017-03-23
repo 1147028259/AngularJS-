@@ -1,0 +1,147 @@
+@import url(reset.css);
+html,
+body,
+.shop5 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.shop5 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.shop5 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop5 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop5 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.shop5 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.shop5 header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop5 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop5 section::-webkit-scrollbar {
+  width: 0;
+}
+.shop5 section .p_t1 {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-top: 1px solid #CCCCCC;
+  margin-top: 0.5rem;
+}
+.shop5 section .p_top {
+  width: 100%;
+  height: 3.9rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #CCCCCC;
+}
+.shop5 section .p_top h2 {
+  color: #676767;
+  line-height: 3.8rem;
+}
+.shop5 section .p_top h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+}
+.shop5 section .p_top h3 input {
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  outline: none;
+  border: none;
+}
+.shop5 section .p_main {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #CCCCCC;
+}
+.shop5 section .p_main h2 {
+  line-height: 3.9rem;
+}
+.shop5 section .p_main h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 3.9rem;
+  background: none;
+}
+.shop5 section .p_main h3 input {
+  width: 100%;
+  height: 3.9rem;
+  background: none;
+  outline: none;
+  border: none;
+}
+.shop5 section .p_main h4 {
+  line-height: 3.9rem;
+  padding-left: 0.7rem;
+  box-sizing: border-box;
+  border-left: 1px solid #CCCCCC;
+}
+.shop5 section .s_bot {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.shop5 section .s_bot button {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+}

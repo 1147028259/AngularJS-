@@ -1,0 +1,210 @@
+@import url(reset.css);
+html,
+body,
+.wrap4 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap4 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #ff7f1c;
+  border-bottom: 1px solid #bfbfbf;
+}
+.wrap4 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.wrap4 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap4 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+  color: white;
+}
+.wrap4 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.wrap4 header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap4 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.wrap4 section::-webkit-scrollbar {
+  width: 0;
+}
+.wrap4 section .qb_nav {
+  width: 100%;
+  height: 4.2rem;
+  background: #ffffff;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+.wrap4 section .qb_nav button {
+  width: 6rem;
+  height: 2rem;
+  background: none;
+  border: 2px solid #fe7f1e;
+  color: #fe7f1e;
+  border-radius: 5px;
+  float: right;
+  outline: none;
+}
+.wrap4 section .qb_top {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  text-align: center;
+}
+.wrap4 section .qb_top p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+.wrap4 section .qb_top h2 {
+  color: #eb7d2e;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.wrap4 section .qb_top h3 {
+  color: #a3a3a3;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.wrap4 section .qb_top h4 {
+  line-height: 2.6rem;
+}
+.wrap4 section .qb_top h4 a {
+  text-decoration: none;
+  color: #fa802b;
+}
+.wrap4 section .qb_main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 1rem ;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap4 section .qb_main .m_left {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrap4 section .qb_main .m_left button {
+  width: 8rem;
+  height: 3rem;
+  background: #ff7f1c;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 3rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+}
+.wrap4 section .qb_main .m_right {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrap4 section .qb_main .m_right button {
+  width: 8rem;
+  height: 3rem;
+  background: none;
+  border: 1px solid #989898;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 2.8rem;
+  outline: none;
+  color: #f9781c;
+  font-size: 1.4rem;
+}
+.wrap4 section .qb_center {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap4 section .qb_center h2 {
+  line-height: 3rem;
+  -webkit-box-flex: 1;
+}
+.wrap4 section .qb_center h2 img {
+  width: auto;
+  height: 1.1rem;
+  background: none;
+  vertical-align: middle;
+  padding-right: 0.7rem;
+}
+.wrap4 section .qb_center h3 {
+  padding-top: 1rem;
+}
+.wrap4 section .qb_center h3 img {
+  width: auto;
+  height: 1.1rem;
+  background: none;
+}
+.wrap4 section .qb_bot {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  margin-top: 0.4rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+.wrap4 section .qb_bot1 {
+  width: 100%;
+  height: 4.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+.wrap4 section .qb_bot1 .qb_1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1.6rem;
+}
+.wrap4 section .qb_bot1 .qb_1 span {
+  color: #ff4849;
+}
+.wrap4 section .qb_bot1 .qb_1 h2 {
+  -webkit-box-flex: 1;
+}

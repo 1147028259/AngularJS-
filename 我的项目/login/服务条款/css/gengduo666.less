@@ -1,0 +1,67 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.clau{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.clau{
+    .box(vertical);
+    header{
+        .full(100%,4.4rem,#f7f7f7);
+        position: relative;
+        border-bottom:1px solid #CCCCCC ;
+        h2{
+            -webkit-box-flex: 1;
+            line-height: 4.3rem;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+        h3{
+            position: absolute;
+            left: 1rem;
+            top: 1.4rem;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        .cl_top{
+            .box(horizontal);
+            .full(100%,4rem,#ffffff);
+            margin-bottom: 1px;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            line-height: 4rem;
+            h2{
+                -webkit-box-flex: 1;
+                font-size: 1.4rem;
+            }
+            h3{
+                padding-top: 0.3rem;
+                box-sizing: border-box;
+                img{
+                    .full(auto,1.6rem,none);
+                }
+            }
+        }
+        .cl_top1{
+            .full(100%,auto,none);
+            margin-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,179 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.preview {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.preview header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.preview header h3 {
+  -webkit-box-flex: 1;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.preview header .t_left {
+  width: 5rem;
+  height: 4rem;
+  background: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+  line-height: 4rem;
+}
+.preview header .t_left a {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  border: 2px solid #ccc;
+  display: inline-block;
+  border-top: none;
+  border-right: none;
+  transform: rotateZ(45deg);
+}
+.preview header .t_right {
+  width: 5rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+}
+.preview header .t_right img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  margin-right: 5px ;
+  margin-top: 15px;
+}
+.preview section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.preview section .banner {
+  width: 100%;
+  height: auto;
+  background: #cccccc;
+}
+.preview section .banner img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .nav {
+  width: 100%;
+  height: auto;
+  background: #cccccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.preview section .nav .bg {
+  color: #ff7e1c;
+}
+.preview section .nav dl {
+  -webkit-box-flex: 1;
+}
+.preview section .nav dl dt img {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.preview section .nav dl dd {
+  line-height: 1.2rem;
+}
+.preview section .b_main {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .b_main img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .main {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.preview section .main dl {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .main dl dt {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .main dl dt img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .main .d_size {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.preview section .main .d_size span {
+  width: 10px;
+  height: auto;
+  background: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+.preview section .main .t_data span {
+  font-size: 1.4rem;
+  color: #ff7f1d;
+}
+.preview section .main .t_data a {
+  float: right;
+  color: #ccc;
+}
+.preview section .main .t_data a b {
+  margin-left: 3px;
+}
+.preview section .main .m_dl {
+  margin-right: 5px;
+}
+.preview footer {
+  width: 100%;
+  height: 2rem;
+  background: none;
+  line-height: 2rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.preview footer .u_list {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.preview footer .u_list li {
+  -webkit-box-flex: 1;
+  font-size: 1.6rem;
+  border-right: 1px solid #ccc;
+}
+.preview footer .u_list li:nth-child(3) {
+  border-right: none ;
+}

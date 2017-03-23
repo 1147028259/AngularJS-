@@ -1,0 +1,121 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.shop9{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%; 
+}
+.shop9{
+    .box(vertical);
+    position: relative;
+    .da_z{
+        .full(100%,100%,#484848);
+        position: fixed;
+        opacity: 0.7;
+        display: none;
+    }
+    .da_z1{
+        .full(100%,28.2rem,none);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 1rem;
+        display: none;
+        .bta{
+            .full(100%,20rem,#fff);
+            border-radius: 10px;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            .bcb{
+                .box(horizontal);
+                text-align: center;
+                 dl{
+                     margin-top: 3rem;
+                    -webkit-box-flex: 1;
+                img{
+                    .full(auto,3.4rem,none);
+                       }
+                 }
+            }
+        }
+            .bab{
+                .full(100%,5rem,#fff);
+                margin-top: 2rem;
+                border-radius: 10px;
+                text-align: center;
+                line-height: 5rem;
+                font-size: 1.6rem;
+            }
+    }
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+//      .bd_nav{
+//          .full(100%,auto,none);
+//          margin-top: 4rem;
+//          text-align: center;
+//          .b_n1{
+//              .full(16rem,16rem,#fff);
+//              padding: 1rem;
+//              box-sizing: border-box;
+//              img{
+//                  .full(14rem,14rem,none);
+//              }
+//          }
+//      }
+    .main{
+        .full(100%,auto,none);
+    text-align: center;
+    margin-top: 6rem;
+        span{
+            .full(16rem,16rem,#fff);
+            padding: 10px;
+            box-sizing: border-box;
+            display: inline-block;
+            img{
+                .full(auto,100%,none);
+            }
+        }
+    }
+    }
+}

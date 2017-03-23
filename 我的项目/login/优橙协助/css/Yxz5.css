@@ -1,0 +1,191 @@
+@import url(reset.css);
+html,
+body,
+.help5 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.help5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.help5 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.help5 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.help5 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.help5 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.help5 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.help5 header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.help5 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.help5 section::-webkit-scrollbar {
+  width: 0;
+}
+.help5 section .bc_top {
+  width: 100%;
+  height: 2.2rem;
+  background: none;
+  line-height: 2.2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.help5 section .bc_top a {
+  color: #fe6f07;
+  text-decoration: none;
+}
+.help5 section .bc_lin {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.help5 section .bc_lin .hs_top {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2 ;
+}
+.help5 section .bc_lin .hs_top h2 {
+  line-height: 3.4rem;
+  font-size: 1.4rem;
+}
+.help5 section .bc_lin .hs_top h4 {
+  padding-top: 0.7rem;
+  box-sizing: border-box;
+}
+.help5 section .bc_lin .hs_top h4 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.help5 section .bc_lin .hs_top h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 3.4rem;
+  background: none;
+}
+.help5 section .bc_center {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.help5 section .bc_center p {
+  font-size: 1.4rem;
+  line-height: 4rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.help5 section .bc_center ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.8rem 0;
+  box-sizing: border-box;
+}
+.help5 section .bc_center ul li {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: none;
+  margin: 0 0.8rem;
+}
+.help5 section .bc_center ul li img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.help5 section .bc_bot {
+  width: 100%;
+  height: 5.2rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  position: relative;
+}
+.help5 section .bc_bot h4 {
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+}
+.help5 section .bc_bot p {
+  line-height: 2.2rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.help5 section .bc_bot p img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.help5 footer {
+  width: 100%;
+  height: 4.6rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.help5 footer h2 {
+  line-height: 4.6rem;
+  font-size: 1.4rem;
+  -webkit-box-flex: 1;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.help5 footer h2 span {
+  color: #ff7a17;
+}
+.help5 footer h3 {
+  color: white;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  background: #ff7d1b;
+  font-size: 1.6rem;
+  line-height: 4.6rem;
+}

@@ -1,0 +1,115 @@
+@import url("reset.css");
+.bigZxiu {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.bigZxiu header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  line-height: 4rem;
+  position: relative;
+  border: 1px solid #ccc;
+}
+.bigZxiu header h3 {
+  -webkit-box-flex: 1;
+  font-size: 1.6rem;
+}
+.bigZxiu header b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-top: none ;
+  border-right: none;
+  transform: rotateZ(45deg);
+  position: absolute;
+  left: 15px;
+  top: 17px;
+}
+.bigZxiu header .t_right {
+  width: 6rem;
+  height: 4rem;
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.bigZxiu header .t_right span {
+  font-size: 1.4rem;
+  margin-right: 5px;
+}
+.bigZxiu section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.bigZxiu section .banner {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.bigZxiu section .banner h2 {
+  line-height: 2.7rem;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.bigZxiu section .banner img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.bigZxiu section .main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.bigZxiu section .main h2 {
+  line-height: 2.7rem;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.bigZxiu section .main img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.bigZxiu section .main span {
+  line-height: 3rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.d_list {
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+  display: none;
+  left: 0;
+  bottom: 0rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.d_list p {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-top: 10px;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  border-radius: 5px ;
+}

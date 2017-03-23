@@ -1,0 +1,147 @@
+@import url("reset.css");
+.bigWrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: url(../img/images/-0-.png) no-repeat;
+  background-size: 100%,100%;
+}
+.bigWrap header {
+  width: 100%;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.bigWrap header img {
+  width: auto;
+  height: 8rem;
+  background: none;
+  margin-top: 6rem;
+}
+.bigWrap header p {
+  line-height: 14px;
+  font-size: 18px;
+  margin-top: 1.7rem;
+  padding-bottom: 5rem;
+  box-sizing: border-box;
+  color: #4d4d4d;
+}
+.bigWrap section {
+  -webkit-box-flex: 1;
+  text-align: left;
+}
+.bigWrap section .sect {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+.bigWrap section .sect .user {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.bigWrap section .sect .user li:nth-child(1) {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.bigWrap section .sect .user li:nth-child(1) img {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.bigWrap section .sect .user li:nth-child(2) {
+  margin-left: 10px;
+  -webkit-box-flex: 1;
+  border-bottom: 1px solid #ff7d1b;
+}
+.bigWrap section .sect .user li:nth-child(2) input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.bigWrap section .sect .password {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 15px ;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+}
+.bigWrap section .sect .password li:nth-child(1) {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 8px;
+}
+.bigWrap section .sect .password li:nth-child(1) img {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.bigWrap section .sect .password li:nth-child(2) {
+  margin-left: 10px;
+  -webkit-box-flex: 1;
+  margin-top: 8px;
+  border-bottom: 1px solid #ff7d1b;
+}
+.bigWrap section .sect .password li:nth-child(2) input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.bigWrap section .sect .password li:nth-child(2) img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  float: right;
+}
+.bigWrap section .btn {
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.bigWrap section .btn span {
+  width: 100%;
+  height: 3.6rem;
+  background: #ff7d1b;
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  line-height: 3.6rem;
+  border-radius: 10px ;
+}
+.bigWrap section .siz {
+  width: 100%;
+  height: auto;
+  background: none;
+  line-height: 12px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.bigWrap section .siz span {
+  color: #507daf;
+  display: inline-block;
+}
+.bigWrap section .siz a {
+  float: right;
+  color: #507daf;
+}
+.wapper {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wapper header {
+  width: 100%;
+  height: auto;
+  background: none;
+}

@@ -1,0 +1,232 @@
+@import url("reset.css");
+.fabu {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.fabu header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  line-height: 4rem;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.fabu header .t_left,
+.fabu header .t_right {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  font-size: 1.6rem;
+}
+.fabu header .t_left b,
+.fabu header .t_right b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-top: none;
+  border-right: none;
+  transform: rotateZ(45deg);
+}
+.fabu header h2 {
+  font-size: 1.8rem;
+  -webkit-box-flex: 1;
+}
+.fabu section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.fabu section .files {
+  width: 100%;
+  height: 11.5rem;
+  background: #ffffff;
+  padding: 5px 0 0 10px;
+  box-sizing: border-box;
+}
+.fabu section .files h3 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.fabu section .files h3 b {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.fabu section .files span {
+  width: auto;
+  height: 5rem;
+  background: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+.fabu section .files span img {
+  width: auto;
+  height: 100%;
+  background: none;
+}
+.fabu section .u_list {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-top: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.fabu section .u_list li input {
+  border: none;
+  outline: none;
+  margin-left: 3px;
+}
+.fabu section .u_list li:nth-child(1) {
+  font-size: 1.6rem;
+  line-height: 35px;
+  border-bottom: 1px solid #ccc;
+}
+.fabu section .u_list li:nth-child(2) {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+.fabu section .u_list li:nth-child(3) {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+.fabu section .u_list li:nth-child(4) {
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+.fabu section .main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.fabu section .main h3 {
+  line-height: 3rem;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.fabu section .main dl {
+  width: 100%;
+  height: 12.2rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.fabu section .main dl dt {
+  -webkit-box-flex: 1;
+}
+.fabu section .main dl dt ul li {
+  line-height: 3rem;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.fabu section .main dl dt ul li span {
+  margin-left: 20px;
+  color: #ccc;
+}
+.fabu section .main dl dt ul .u_li {
+  border-bottom: none;
+}
+.fabu section .main dl dd {
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+.fabu section .main dl dd img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 5rem;
+}
+.fabu section .btn {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 3rem;
+}
+.fabu section .btn span {
+  width: 100%;
+  height: 3rem;
+  background: #f0f0f0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.fabu section .btn span img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  vertical-align: middle;
+}
+.fabu section .data_list {
+  width: 100%;
+  height: 11.5rem;
+  background: #ffffff;
+  padding: 5px 0 0 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.fabu section .data_list h3 {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+.fabu section .data_list span {
+  width: auto;
+  height: 5rem;
+  background: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+.fabu section .data_list span img {
+  width: auto;
+  height: 100%;
+  background: none;
+}
+.fabu section .one {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  line-height: 3rem;
+}
+.fabu section .one span {
+  font-size: 1.4rem;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.fabu section .one a {
+  float: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.fabu section .one a b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-left: none;
+  transform: rotateZ(45deg);
+}

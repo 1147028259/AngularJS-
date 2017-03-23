@@ -1,0 +1,76 @@
+@import url(reset.css);
+html,
+body,
+.clau {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.clau {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.clau header {
+  width: 100%;
+  height: 4.4rem;
+  background: #f7f7f7;
+  position: relative;
+  border-bottom: 1px solid #CCCCCC ;
+}
+.clau header h2 {
+  -webkit-box-flex: 1;
+  line-height: 4.3rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.clau header h3 {
+  position: absolute;
+  left: 1rem;
+  top: 1.4rem;
+}
+.clau header h3 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.clau section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.clau section::-webkit-scrollbar {
+  width: 0;
+}
+.clau section .cl_top {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-bottom: 1px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 4rem;
+}
+.clau section .cl_top h2 {
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.clau section .cl_top h3 {
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.clau section .cl_top h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.clau section .cl_top1 {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-top: 1rem;
+}

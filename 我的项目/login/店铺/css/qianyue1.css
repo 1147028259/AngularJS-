@@ -1,0 +1,76 @@
+@import url(reset.css);
+html,
+body,
+.shop {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.shop header {
+  width: 100%;
+  height: 4.4rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #cccccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop header h2 {
+  width: 100%;
+  height: 4.4rem;
+  background: none;
+  text-align: center;
+  line-height: 4.3rem;
+  font-size: 1.6rem;
+  color: #272727;
+  position: relative;
+}
+.shop header img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+  position: absolute;
+  top: 1.3rem;
+  left: 1.1rem;
+}
+.shop section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop section::-webkit-scrollbar {
+  width: 0;
+}
+.shop section .sp_top {
+  margin-top: 15.5rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.shop section .sp_top input {
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+.shop section .s_bot {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.shop section .s_bot button {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+}

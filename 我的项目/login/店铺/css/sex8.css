@@ -1,0 +1,85 @@
+@import url(reset.css);
+html,
+body,
+.shop8 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop8 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.shop8 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.shop8 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop8 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop8 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.shop8 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.shop8 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop8 section::-webkit-scrollbar {
+  width: 0;
+}
+.shop8 section .main_t1 {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.shop8 section .main_t1:nth-child(1) {
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+.shop8 section .main_t1 h2 {
+  line-height: 4rem;
+  font-size: 1.4rem;
+  -webkit-box-flex: 1;
+}
+.shop8 section .main_t1 h3 {
+  padding-top: 1.4rem;
+  box-sizing: border-box;
+}
+.shop8 section .main_t1 h3 img {
+  width: auto;
+  height: 1.2rem;
+  background: none;
+}

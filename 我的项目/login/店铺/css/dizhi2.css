@@ -1,0 +1,174 @@
+@import url(reset.css);
+html,
+body,
+.shop2 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.shop2 .big {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  position: fixed;
+  opacity: 0.7;
+  display: none;
+}
+.shop2 .zhe_z {
+  width: 100%;
+  height: 21.6rem;
+  background: #ededed;
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.shop2 .zhe_z .zhe_z1 {
+  width: 100%;
+  height: 3.6rem;
+  background: #f4f4f4;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.shop2 .zhe_z .zhe_z1 h2 {
+  width: 4rem;
+  height: 3.6rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 3.6rem;
+  color: #006bff;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+}
+.shop2 .zhe_z .zhe_z1 h3 {
+  width: 4rem;
+  height: 3.6rem;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 3.6rem;
+  color: #006bff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.shop2 .zhe_z .zhe_z2 {
+  width: 100%;
+  height: 3.5rem;
+  background: none;
+  border-top: 1px solid #bebebe;
+  border-bottom: 1px solid #cbcbcb;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 6.4rem;
+}
+.shop2 .zhe_z .zhe_z2 h4 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 3.3rem;
+}
+.shop2 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.shop2 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop2 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop2 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.shop2 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.shop2 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop2 section::-webkit-scrollbar {
+  width: 0;
+}
+.shop2 section .wr_main {
+  width: 100%;
+  height: 3.1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f4f4f4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop2 section .wr_main h2 {
+  color: #656565;
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+.shop2 section .wr_main h3 {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 3rem;
+  background: none;
+}
+.shop2 section .wr_main h3 input {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.shop2 section .wr_main1 {
+  width: 100%;
+  height: 3.1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f4f4f4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop2 section .wr_main1 h2 {
+  color: #656565;
+  line-height: 3rem;
+  padding-left: 1rem;
+  -webkit-box-flex: 1;
+}
+.shop2 section .wr_main1 h3 {
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.shop2 section .wr_main1 h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}

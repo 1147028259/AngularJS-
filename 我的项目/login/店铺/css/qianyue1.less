@@ -1,0 +1,68 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.shop{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.shop{
+    .box(vertical);
+    header{
+        .full(100%,4.4rem,#f7f7f7);
+        border-bottom: 1px solid #cccccc;
+        .box(horizontal);
+        h2{
+            .full(100%,4.4rem,none);
+            text-align: center;
+            line-height: 4.3rem;
+            font-size: 1.6rem;
+            color: #272727;
+            position: relative;
+        }
+        img{
+            .full(auto,1.8rem,none);
+            position: absolute;
+            top: 1.3rem;
+            left: 1.1rem;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        
+        .sp_top{
+            margin-top: 15.5rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            input{
+                vertical-align: middle;
+                margin-right: 0.4rem;
+            }
+        }
+        .s_bot{
+            .full(100%,3rem,none);
+            margin-top: 2rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            button{
+                .full(100%,3rem,#ff7f1c);
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                color: white;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

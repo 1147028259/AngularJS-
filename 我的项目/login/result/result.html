@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>密码重置</title>
+     <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/opcity.js"></script>
+    <link rel="stylesheet" href="css/result.css"/>
+</head>
+<body ui-view>
+  <div class="wrappers">
+  	<div class="opct"></div>
+  	<header>
+  		 <b ui-sref="first"></b>
+  		<h2>密码重置</h2>
+  	</header>
+  	<section>
+  		<div class="bigbox">
+  			<p class="new_pwd"><input type="text" placeholder="请输入新密码"/></p>
+  			<p class="r_pwd"><input type="text" placeholder="请再次输入新密码"/></p>
+  		    <p class="phone"><input type="text" placeholder="请输入手机号"/></p>
+  		</div>
+  		    <p class="yanzhen">
+  		    	<input type="text" placeholder="请输入验证码"/>
+  		        <span>获取验证</span>  
+  		    </p> 
+  		 <div class="btns">
+  		 	<span>提交</span>
+  		 </div>
+  	</section>
+  </div> 
+  		<div class="BoxIndex">
+  			<span><img src="../img/gantan.png"/></span> 
+  			<p>对不起重置失败原因</p>
+  		</div> 
+</body>
+</html>

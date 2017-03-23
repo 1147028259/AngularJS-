@@ -1,0 +1,118 @@
+@import url("reset.css");
+.wrapper_box {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper_box header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  color: #262626;
+}
+.wrapper_box header b {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: none;
+  border: 2px solid #ccc;
+  border-top: none;
+  border-right: none;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  transform: rotateZ(45deg);
+}
+.wrapper_box section {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.wrapper_box section .bigbox {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.wrapper_box section .bigbox .new_pwd {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper_box section .bigbox .new_pwd input {
+  border: none;
+  outline: none;
+}
+.wrapper_box section .bigbox .r_pwd {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper_box section .bigbox .r_pwd input {
+  border: none;
+  outline: none;
+}
+.wrapper_box section .bigbox .phone {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  font-size: 14px;
+}
+.wrapper_box section .bigbox .phone input {
+  border: none;
+  outline: none;
+}
+.wrapper_box section .yanzhen {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  line-height: 4rem;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+}
+.wrapper_box section .yanzhen input {
+  border: none;
+  outline: none;
+}
+.wrapper_box section .yanzhen span {
+  width: 8rem;
+  height: 4rem;
+  background: none;
+  float: right;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+}
+.wrapper_box section .btns {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.wrapper_box section .btns span {
+  width: 100%;
+  height: 4rem;
+  background: #ff7d1b;
+  line-height: 4rem;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+}

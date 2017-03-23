@@ -1,0 +1,285 @@
+@import url(reset.css);
+html,
+body,
+.shop10 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.shop10 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.shop10 .sh_big {
+  width: 100%;
+  height: 100%;
+  background: #919191;
+  position: fixed;
+  z-index: 99;
+  opacity: 0.7;
+  display: none;
+}
+.shop10 .sh_big1 {
+  width: 100%;
+  height: 12.7rem;
+  background: none;
+  padding: 0 1rem;
+  z-index: 99;
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.shop10 .sh_big1 .big_a {
+  width: 100%;
+  height: 8.1rem;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+.shop10 .sh_big1 .big_a h2,
+.shop10 .sh_big1 .big_a h3 {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+}
+.shop10 .sh_big1 .big_a h2 {
+  border-bottom: 1px solid #919191;
+}
+.shop10 .sh_big1 .big_b {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.6rem;
+}
+.shop10 header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+.shop10 header h2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop10 header h2 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop10 header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+}
+.shop10 header h4 {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: none;
+  padding-top: 1.3rem;
+  padding-left: 1.4rem;
+  box-sizing: border-box;
+}
+.shop10 header h4 img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.shop10 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+}
+.shop10 section::-webkit-scrollbar {
+  width: 0;
+}
+.shop10 section .ss_top {
+  width: 100%;
+  height: auto;
+  background: none;
+  position: relative;
+}
+.shop10 section .ss_top h4 {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.shop10 section .ss_top h4 img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.shop10 section .ss_top .tou_a {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  position: absolute;
+  left: 0;
+  bottom: -2rem;
+}
+.shop10 section .ss_top .tou_a dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+}
+.shop10 section .ss_top .tou_a dl dt img {
+  width: auto;
+  height: 4.5rem;
+  background: none;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+}
+.shop10 section .ss_top .tou_a dl dd {
+  -webkit-box-flex: 1;
+}
+.shop10 section .ss_top .tou_a dl dd p {
+  color: white;
+  font-size: 1.4rem;
+}
+.shop10 section .ss_top .tou_a dl dd h2 {
+  margin-top: 1.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.shop10 section .ss_top .tou_a h3 {
+  margin-top: 2.8rem;
+  color: #6363b9;
+}
+.shop10 section .ss_nav {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 2.5rem 1rem 1rem 1rem;
+}
+.shop10 section .ss_nav p {
+  line-height: 1.5rem;
+}
+.shop10 section .bb_h {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.shop10 section .bb_h h2 {
+  width: 100%;
+  height: 3.6rem;
+  background: none;
+  border-bottom: 1px solid #f2f2f2 ;
+  line-height: 3.5rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+.shop10 section .ss_main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.shop10 section .ss_main .ss_un {
+  width: 100%;
+  height: 3.1rem;
+  background: none;
+  line-height: 3rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #f2f2f2;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+.shop10 section .ss_main .ss_un h2 {
+  -webkit-box-flex: 1;
+}
+.shop10 section .ss_main .ss_un h2 img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
+.shop10 section .ss_main .ss_un .h3 {
+  margin-right: 0.6rem;
+}
+.shop10 section .ss_main .ss_un .h3 img {
+  width: auto;
+  height: 1.3rem;
+  background: none;
+}
+.shop10 section .ss_main .ss_un h3 {
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.shop10 section .ss_main .ss_un h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.shop10 section .ss_center {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+}
+.shop10 section .ss_center h2 {
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+.shop10 section .ss_center h3 {
+  padding-top: 0.6rem;
+  box-sizing: border-box;
+}
+.shop10 section .ss_center h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.shop10 section .ss_bot {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0.6rem 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop10 section .ss_bot h2 {
+  -webkit-box-flex: 1;
+  line-height: 2rem;
+}
+.shop10 section .ss_bot h2 span {
+  font-weight: bold;
+}
+.shop10 section .ss_bot h3 {
+  padding-top: 1rem;
+}
+.shop10 section .ss_bot h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}

@@ -1,0 +1,85 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.fukui {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.fukui header {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  text-align: center;
+  line-height: 4rem;
+}
+.fukui header h5 {
+  -webkit-box-flex: 1;
+  font-size: 20px;
+}
+.fukui header b {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  border: 2px solid #ccc;
+  display: inline-block;
+  border-top: none;
+  border-right: none;
+  transform: rotateZ(45deg);
+}
+.fukui section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.fukui section .main {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.fukui section .main h4 {
+  line-height: 3rem;
+  font-size: 14px;
+  color: #ccc;
+}
+.fukui section .main .m_list {
+  width: 100%;
+  height: 15rem;
+  background: #ffffff;
+}
+.fukui section .main .m_list textarea {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+.fukui section .btn {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.fukui section .btn span {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1d;
+  display: inline-block;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: #fff;
+}

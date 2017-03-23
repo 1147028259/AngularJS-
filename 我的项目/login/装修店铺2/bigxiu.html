@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>装修店铺2</title>
+    <link rel="stylesheet" href="css/bigxiu.css"/>
+</head>
+<body>
+	<div class="bigZxiu">
+		<header>
+			<b></b>
+			<h3>装修店铺</h3>
+			<p class="t_right">
+				<span>保存</span><span>取消</span>
+			</p>
+		</header>
+		<section>
+			<div class="banner">
+				<h2>店铺背景图</h2>
+				<img src="img/images/店铺装修2_02.jpg"/>
+			</div>
+			<div class="main">
+				<h2>轮播图一</h2>
+				<img src="img/images/店铺装修2_04.jpg"/>
+				<span>关联产品[无]</span>
+			</div>
+			<div class="main">
+				<h2>轮播图二</h2>
+				<img src="img/images/店铺装修2_04.jpg"/>
+			</div>
+		</section>
+	</div>
+	<div class="d_list">
+			<p>更换店铺背景图</p>
+            <p class="clear">取消</p> 		
+	</div>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script>
+		$(function(){
+			$(".banner").on('click',function(){
+				$(".d_list").show();   
+			})
+			$(".d_list .clear").on('click',function(){
+				$(".d_list").hide();
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@import url("reset.css");
+.myname {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.myname header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.myname header .t_left,
+.myname header .t_right {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+}
+.myname header .t_left img,
+.myname header .t_right img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 10px;
+}
+.myname header .t_left b,
+.myname header .t_right b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-top: none;
+  border-right: none;
+  transform: rotateZ(45deg);
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.myname header h5 {
+  -webkit-box-flex: 1;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+.myname section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.myname section .main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 10px;
+}
+.myname section .main .u_list {
+  width: 100%;
+  height: 3.6rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 3.5rem;
+}
+.myname section .main .u_list li:nth-child(1) {
+  width: 2.5rem;
+  height: auto;
+  background: none;
+}
+.myname section .main .u_list li:nth-child(1) img {
+  width: 24px;
+  height: auto;
+  background: none;
+  margin-top: 10px;
+}
+.myname section .main .u_list li:nth-child(2) {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+.myname section .main .u_list li:nth-child(3) b {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-left: none ;
+  border-bottom: none;
+  transform: rotateZ(45deg);
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+.myname footer {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.myname footer dl {
+  -webkit-box-flex: 1;
+  margin-top: 3px;
+}
+.myname footer dl dt img {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.myname footer dl dd {
+  line-height: 12px;
+}
+.myname footer dl:nth-child(3) dt {
+  padding: 5px 0px;
+  background: #ff7f1d;
+  border-radius: 5px ;
+}
+.myname footer .bg {
+  color: #FF7F1D;
+}

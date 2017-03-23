@@ -1,0 +1,75 @@
+@import url("reset.css");
+
+//封装宽 高 背景
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.p(@p){
+    position:@p;
+}
+.full(@val){
+    display: -webkit-box;
+    -webkit-box-orient:@val;
+}
+html{
+    font-size: 62.5%;
+}
+.yijian{
+    .whb(100%,100%,none);
+    .full(vertical);
+    header{
+       .whb(100%,4rem,none);
+       border-bottom: 1px solid #ccc;
+       .full(horizontal);
+       position: relative;
+       text-align: center;
+       line-height: 4rem;
+       h5{
+         -webkit-box-flex: 1; 
+         font-size: 20px; 
+       }  
+       b{
+           position: absolute;
+           top:15px;
+           left: 15px;
+           .whb(1rem,1rem,none);
+           border: 2px solid #ccc;
+           display: inline-block;
+           border-top:none;
+           border-right:none;
+           transform: rotateZ(45deg);
+       }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background:#f2f2f2;
+       .main{
+          .whb(100%,auto,#f2f2f2);
+          padding:7rem  2rem 0rem 2rem;
+          box-sizing: border-box;
+          text-align: center;
+          img{
+              .whb(auto,10rem,none);
+          }
+        h6{
+           font-size: 2rem;
+           text-align: center; 
+           margin-top: 1rem;
+        }
+       } 
+        .m_list{
+           color: #b2b2b2; 
+           padding: 0 30px;
+           margin-top: 1.5rem;
+        }  
+    }
+}

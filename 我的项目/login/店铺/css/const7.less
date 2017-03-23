@@ -1,0 +1,123 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.shop7{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%; 
+}
+.shop7{
+    .box(vertical);
+    position: relative;
+    .big{
+       .full(100%,100%,#919191);
+       position:fixed;
+       opacity: 0.7;
+       display: none;
+    }
+        .zhe_z{
+        .full(100%,21.6rem,#ededed);
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 99;
+        .zhe_z1{
+            .full(100%,3.6rem,#f4f4f4);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            .box(horizontal);
+            position: relative;
+            h2{
+                .full(4rem,3.6rem,none);
+                font-size: 1.4rem;
+                line-height: 3.6rem;
+                color: #006bff;
+                position: absolute;
+                left: 1rem;
+                top: 0;
+            }    
+            h3{
+                .full(4rem,3.6rem,none);
+                font-size: 1.4rem;
+                line-height: 3.6rem;
+                color: #006bff;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }     
+        }
+        .zhe_z2{
+            .full(100%,3.5rem,none);
+            border-top: 1px solid #bebebe;
+            border-bottom: 1px solid #cbcbcb;
+            .box(horizontal);
+            margin-top: 6.4rem;
+            h4{
+                -webkit-box-flex: 1;
+                text-align: center;
+                line-height: 3.3rem;
+            }
+        }
+}
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        .ct_main{
+            .box(horizontal);
+            .full(100%,3rem,#fff);
+            margin-top: 0.5rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            h2{
+                line-height: 3rem;
+                -webkit-box-flex: 1;
+            }
+            h3{
+                padding-top: 0.7rem;
+                box-sizing: border-box;
+                img{
+                    .full(auto,1.6rem,none)
+                }
+            }
+        }
+    }
+
+    
+}

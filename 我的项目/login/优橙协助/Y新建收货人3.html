@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/Yshouhuo3.css"/>
+	</head>
+	<body>
+		<div class="help3">
+			<div class="big">
+				
+			</div>
+			<div class="zhe_z">
+				<div class="zhe_z1">
+					<h2>取消</h2><h3>完成</h3>
+				</div>
+				<div class="zhe_z2">
+					<h4>北京</h4><h4>北京市</h4><h4>海淀区</h4>
+				</div>
+			</div>
+			<header>
+				<h2>新建收货人</h2>
+				<h3><img src="img/image3/bang_1_03.jpg"/></h3>
+			</header>
+			<section>
+				<div class="hs_top">
+					<h2>收货人：</h2>
+					<h3><input type="text"/></h3>
+				</div>
+				<div class="hs_top">
+					<h2>手机号：</h2>
+					<h3><input type="text" /></h3>
+				</div>
+				<div class="hs_top" id="btb">
+					<h2>所在地区：</h2>
+					<h3><input type="text"/></h3>
+					<h4><img src="img/image3/bao_3_03.jpg"/></h4>
+				</div>
+				<div class="hs_top">
+					<h2>具体地址：</h2>
+					<h3><input type="text" /></h3>
+				</div>
+				<div class="s_bot">
+					<button>提交</button>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script>
+		$(function(){
+			$(".help3 section #btb").click(function(){
+				$(".help3 .big,.zhe_z").show();
+			})
+			$(".help3 .zhe_z1 h2,h3").click(function(){
+				$(".help3 .big,.zhe_z").hide();
+			})
+		})
+	</script>
+</html>

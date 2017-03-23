@@ -1,0 +1,65 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.hou1{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.hou1{
+    .box(vertical);
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        .ho_top{
+            .full(100%,auto,#fff);
+            padding: 1rem;
+            box-sizing: border-box;
+            p{
+                line-height: 1.7rem;
+                span{
+                    color: #ff9250;
+                }
+            }
+        }
+    }
+}

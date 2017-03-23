@@ -1,0 +1,98 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.wrap6{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.wrap6{
+     .box(vertical);
+    header{
+        .box(horizontal);
+        .full(100%,4.5rem,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        h2{
+            .full(4.4rem,4.4rem,none);
+            padding-top: 1.3rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+        h3{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 4.4rem;
+            font-size: 1.6rem;
+        }
+         h4{
+             .full(4.4rem,4.4rem,none);
+             padding-top: 1.3rem;
+             padding-left: 1.4rem;
+            box-sizing: border-box;
+            img{
+                .full(auto,1.8rem,none);
+            }
+        }
+    }
+    .cx_top{
+            .full(100%,4rem,#fff);
+            ul{
+                .box(horizontal);
+                padding: 0.5rem 0;
+                .t_first{
+                    color: #ff811d;
+                    border-bottom: 1px solid #ff811dss;
+                }
+                li{
+                    .full(100%,3rem,none);
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                    line-height: 3rem;
+                    font-size: 1.2rem;
+                    border-right: 1px solid #cccccc;
+                    span{
+                        vertical-align: middle;
+                        margin-left: 0.3rem;
+                        display: inline-block;
+                        width: 0;
+                        height: 0;
+                        border: 4px solid transparent;
+                        border-top:4px solid #9a9a9a ;
+                    }
+                }
+            }
+        }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        &::-webkit-scrollbar{width: 0;}
+        background: #f2f2f2;
+        
+        .cx_main{
+            .full(100%,auto,#fff);
+            margin-top: 0.6rem;
+                padding: 1rem 1.2rem;
+            .yw_1{
+                .box(horizontal);
+                h2{
+                     -webkit-box-flex: 1;
+                     color: #7e7e7e;
+                  }
+                 h3{
+                     color: #7e7e7e;
+                 }
+            }
+        }
+    }
+}

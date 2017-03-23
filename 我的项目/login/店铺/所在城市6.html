@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/city6.css"/>
+	</head>
+	<body>
+		
+		<div class="shop6">
+			<div class="big">
+				
+			</div>
+			<div class="zhe_z">
+				<div class="zhe_z1">
+					<h2>取消</h2><h3>完成</h3>
+				</div>
+				<div class="zhe_z2">
+					<h4>北京</h4><h4>北京市</h4><h4>海淀区</h4>
+				</div>
+			</div>
+			<header>
+				<h2><img src="img/image2/bang_1_03.jpg"/></h2>
+				<h3>所在城市</h3>
+				<h4>保存</h4>
+			</header>
+			<section>
+				<div class="ct_main">
+					<h2>北京市，海淀区</h2>
+					<h3><img src="img/image2/bao_3_03.jpg"/></h3>
+				</div>
+			</section>
+		</div>
+		
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script>
+		$(function(){
+			$(".shop6 section .ct_main").click(function(){
+				$(".big,.zhe_z").show();
+			})
+			$(".shop6 .zhe_z1 h2,h3").click(function(){
+				$(".big,.zhe_z").hide();
+			})
+		})
+	</script>
+</html>

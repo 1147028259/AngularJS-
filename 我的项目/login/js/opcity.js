@@ -1,0 +1,10 @@
+$(function(){
+	  	$('.btns').on('click',function(){
+	  		$(".BoxIndex").show();
+	  		$(".opct").show();
+	  	})
+	  	$('.BoxIndex').on('click',function(){
+	  		$(".BoxIndex").hide();
+	  		$(".opct").hide();
+	  	})
+	})
