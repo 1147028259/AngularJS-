@@ -1,0 +1,100 @@
+@import url("reset.css");
+
+//封装宽 高 背景
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.p(@p){
+    position:@p;
+}
+.full(@val){
+    display: -webkit-box;
+    -webkit-box-orient:@val;
+}
+.wrap{
+    .whb(100%,100%,none);
+    background:url(../img/行会后台登录.jpg)no-repeat;
+    position: relative;
+    .logo{
+       .whb(34rem,23rem,#fff);
+       position: absolute; 
+       top: 30%;
+       left: 50%;
+       margin-left:-17rem;
+       padding: 1rem 5rem;
+       box-sizing: border-box;
+       header{
+         .whb(100%,4rem,none);  
+         font-size: 1.8rem; 
+         color: #4c9cbd;
+         text-align: center;
+         img{
+           .whb(auto,4rem,none);
+         } 
+       }
+      section{
+         .whb(100%,auto,none); 
+         .user{
+           .whb(100%,2.5rem,none);
+           border: 1px solid #4c9cbd; 
+           color:#4c9cbd;
+           line-height: 2rem;
+           padding-left: 8px;
+           box-sizing: border-box;
+           margin-top: 12px;
+           input{
+              border: none;
+              outline: none; 
+           }
+         }
+          .pwd{
+           .whb(100%,2.5rem,none);
+           border: 1px solid #4c9cbd; 
+           color:#4c9cbd ;
+           line-height: 2rem;
+           padding-left: 8px;
+           box-sizing: border-box;
+           margin-top: 12px;
+           margin-bottom: 12px;
+           input{
+               border: none;
+               outline: none;
+           } 
+         }
+        .btn{
+          .whb(100%,2.5rem,#4c9cbd);
+          text-align: center;
+          color: #fff; 
+          border: none;
+          outline: none;
+          margin-bottom: 12px;        
+        } 
+        .butt{
+          .whb(100%,2.5rem,#fff);
+          text-align: center;
+          border: 1px solid #4c9cbd;
+          color: #4c9cbd;
+        }
+        .txt{
+           .whb(100%,auto,none);
+           margin-top: 10px;
+           span{
+             color:#4c9cbd ;  
+           } 
+           a{
+               float: right;
+                color:#4c9cbd ; 
+           }
+        }
+      } 
+    }  
+}
